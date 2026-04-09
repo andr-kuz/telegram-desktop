@@ -52,7 +52,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = "tdesktop";
     rev = "v${finalAttrs.version}";
     fetchSubmodules = true;
-    hash = lib.fakeSha256;
+    hash = "sha256-6VTLLQVASAG0J5fqzVmIUwAc8NhJ2glYxpBwG1hnIns=";
   };
 
   nativeBuildInputs = [
